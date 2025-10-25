@@ -1,0 +1,252 @@
+.single-vacancy .main-page-wrapper {
+    padding-block-start: 80px;
+}
+
+.single-vacancy .site-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-block-end: 80px;
+}
+
+.vacancy .vacancy-inner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 60px;
+    padding-block-start: 80px !important;
+}
+
+.vacancy .vacancy-inner .about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+.vacancy .vacancy-inner .about .vacancy-information {
+    flex: 1 1 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 25px;
+    margin-block-end: 40px;
+}
+
+.vacancy .vacancy-inner .about .vacancy-information .vacancy-name {
+    font-size: 38px;
+    color: var(--rem-c2-dark);
+    font-weight: 600;
+    margin-block-end: 0;
+}
+
+.vacancy .vacancy-inner .about .vacancy-information .vacancy-meta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.vacancy .vacancy-inner .about .vacancy-information .vacancy-meta .vacancy-meta-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.vacancy .vacancy-inner .about .vacancy-information .vacancy-meta .vacancy-meta-item:last-child {
+    border-inline-start: 1px solid var(--rem-c2-main);
+    padding-inline-start: 20px;
+}
+
+.vacancy .vacancy-inner .about .vacancy-information .vacancy-meta .vacancy-meta-item .meta-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--rem-c2-dark);
+}
+
+.vacancy .vacancy-inner .about .vacancy-information .overview p {
+    color: var(--rem-c2-dark);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: justify;
+    margin-block-end: 0;
+}
+
+.vacancy .vacancy-inner .about .vacancy-information .section-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--rem-c2-dark);
+}
+
+.vacancy .vacancy-inner .about .vacancy-information .key-responsibilities ul,
+.vacancy .vacancy-inner .about .vacancy-information .key-requirements ul {
+    margin-block-end: 0;
+}
+
+.vacancy .vacancy-inner .about .vacancy-information .key-responsibilities li,
+.vacancy .vacancy-inner .about .vacancy-information .key-requirements li {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--rem-c2-dark);
+}
+
+.vacancy .vacancy-inner .about .vacancy-information .footer p {
+    color: var(--rem-c2-dark);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: justify;
+    margin-block-end: 0;
+}
+
+.vacancy .vacancy-inner .about .vacancy-sidebar {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 30px;
+    position: sticky;
+    top: 160px;
+    margin-block-end: 30px;
+}
+
+.vacancy .vacancy-inner .about .vacancy-sidebar .sidebar-widget {
+    padding: 30px;
+    padding-block-end: 20px !important;
+    border: none !important;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .16), 0 0 20px 0 rgba(0, 0, 0, .06);
+    border-radius: var(--rem-border-radius);
+}
+
+.vacancy .vacancy-inner .about .vacancy-sidebar .sidebar-widget .wd-button-wrapper .btn {
+    width: 100%;
+    border-radius: var(--rem-button-border-radius);
+    background-color: var(--rem-c2-main);
+    color: var(--rem-c1-light);
+}
+
+.vacancy .vacancy-inner .about .vacancy-sidebar .sidebar-widget .wd-button-wrapper .btn:hover {
+    background-color: var(--rem-c3-main);
+}
+
+.vacancy .vacancy-inner .about .vacancy-sidebar .sidebar-widget .share {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-block-start: 20px;
+}
+
+.vacancy .vacancy-inner .about .vacancy-sidebar .sidebar-widget h3 {
+    font-size: 16px;
+    color: var(--rem-c2-dark);
+    font-weight: 600;
+    margin-block-end: 0;
+}
+
+.vacancy .vacancy-inner .about .vacancy-sidebar .sidebar-widget.not-sure {
+    box-shadow: none !important;
+    background-color: var(--rem-c1-main) !important;
+    padding-block-end: 30px !important;
+}
+
+.vacancy .vacancy-inner .about .vacancy-sidebar .sidebar-widget.not-sure h3 {
+    padding-block-end: 20px !important;
+}
+
+.vacancy .vacancy-inner .about .vacancy-sidebar .sidebar-widget.not-sure .wd-button-wrapper .btn {
+    font-size: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid var(--rem-c2-main);
+    color: var(--rem-c2-dark);
+}
+
+.vacancy .vacancy-inner .about .vacancy-sidebar .sidebar-widget.not-sure .wd-button-wrapper .btn:hover {
+    background-color: var(--rem-c2-main);
+    border-color: var(--rem-c2-main);
+    color: var(--rem-c1-light);
+}
+
+.vacancy .vacancy-inner .about .vacancy-sidebar .sidebar-widget.not-sure .wd-button-wrapper .btn::after {
+    position: absolute;
+    top: 82%;
+    left: 0;
+    font-size: 13px;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+}
+
+.vacancy .vacancy-inner .about .vacancy-sidebar .sidebar-widget .share .wd-social-icons {
+    text-align: start !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.vacancy .vacancy-inner .about .vacancy-sidebar .sidebar-widget>p {
+    display: none !important;
+}
+
+.vacancy .vacancy-inner .about .copy-link-button img,
+.vacancy .vacancy-inner .about .vacancy-information img {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 1024px) {
+    .single-vacancy .main-page-wrapper {
+        padding-block-start: 20px;
+    }
+
+    .single-vacancy .site-content {
+        padding-block-end: 20px;
+    }
+
+    .vacancy .vacancy-inner {
+        padding: 20px !important;
+    }
+
+    .vacancy .vacancy-inner .about {
+        gap: 30px;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .vacancy .vacancy-inner .about .vacancy-information {
+        margin-block-end: 0;
+    }
+
+    .vacancy .vacancy-inner .about .vacancy-information .vacancy-name {
+        font-size: 24px;
+    }
+
+    .vacancy .vacancy-inner .about .vacancy-information {
+        gap: 15px;
+    }
+
+    .vacancy .vacancy-inner .about .vacancy-sidebar {
+        margin-block-end: 0 !important;
+    }
+}

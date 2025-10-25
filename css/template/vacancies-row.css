@@ -1,0 +1,41 @@
+.vacancies-row {
+    padding-block: 88px !important;
+    background-color: rgb(28 117 188 / 5%) !important;
+}
+
+.vacancies-row .r1 {
+    margin-inline: -15px !important;
+}
+
+.vacancies-row .r1 .c1 .title-wrapper {
+    margin-block-end: 50px;
+}
+
+.vacancies-row .r1 .c1 .woodmart-title-container {
+    font-size: 32px;
+    color: var(--rem-c2-dark);
+}
+
+.vacancies-row .r1 .c1 .title-after_title {
+    font-size: 18px;
+    color: var(--rem-c2-dark);
+}
+
+@media only screen and (max-width: 768px) {
+    .vacancies-row {
+        padding: 40px 20px !important;
+        margin-inline: 0 !important;
+    }
+
+    .vacancies-row .r1 .c1 .title-wrapper {
+        padding-inline: 15px;
+    }
+
+    .vacancies-row .r1 .c1 .woodmart-title-container {
+        font-size: 28px;
+    }
+
+    .vacancies-row .r1 .c1 .title-after_title {
+        font-size: 14px;
+    }
+}

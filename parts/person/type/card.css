@@ -1,0 +1,66 @@
+.single-person-card {
+    margin-inline: 10px;
+    padding: 0 !important;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    transition-duration: .3s;
+}
+
+.single-person-card .content-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.single-person-card .content-container .person-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: var(--rem-border-radius);
+}
+
+.single-person-card .content-container .person-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    gap: 5px;
+}
+
+.single-person-card .content-container .person-content .person-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--rem-c2-main);
+    margin-block-end: 0;
+}
+
+.single-person-card .content-container .person-content .person-position {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--rem-c2-main);
+    margin-block-end: 0;
+}
+
+.people-carousel .f-carousel {
+    --f-carousel-spacing: 0 !important;
+}
+
+.people-carousel .f-carousel .f-carousel__slide {
+    width: calc(100% / 5) !important;
+    padding-inline-end: 24px !important;
+    margin-inline-end: 4px;
+}
+
+@media (max-width: 1024px) {
+    .people-carousel .f-carousel .f-carousel__slide {
+        width: calc(100% / 2) !important;
+        padding-inline-end: 0 !important;
+        padding-inline-end: 6px !important;
+        margin-inline-end: 6px !important;
+    }
+}

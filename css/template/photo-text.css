@@ -1,0 +1,39 @@
+.photo-text {
+    padding-block-end: 88px !important;
+}
+
+.photo-text .c1 {
+    padding-inline-end: 30px !important;
+}
+
+.photo-text .c1 .vc_column-inner {
+    padding: 0 !important;
+}
+
+.photo-text .c2 {
+    padding-inline-start: 0px !important;
+}
+
+.photo-text ul {
+    padding-inline-start: 50px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .photo-text {
+        padding-block-end: 30px !important;
+    }
+
+    .photo-text .c1,
+    .photo-text .c2 {
+        padding: 0 !important;
+    }
+
+    .photo-text .c1 {
+        padding-block-end: 20px !important;
+    }
+
+    .photo-text ul {
+        padding-inline-start: 20px;
+    }
+}

@@ -1,0 +1,38 @@
+.faqs-row {
+    padding-block: 88px !important;
+    background: linear-gradient(180deg, #f9f9f9, #fff) !important;
+}
+
+.faqs-row .wd-accordion {
+    margin-block-end: 0 !important;
+}
+
+.faqs-row .wd-accordion .wd-accordion-item {
+    border: 1px solid var(--brdcolor-gray-300) !important;
+    margin-block-end: 10px !important;
+    border-radius: 8px !important;
+    background-color: var(--rem-c1-light) !important;
+}
+
+.faqs-row .wd-accordion .wd-accordion-item .wd-accordion-title {
+    padding: 16px !important;
+}
+
+.faqs-row .wd-accordion .wd-accordion-item .wd-accordion-title .wd-accordion-title-text {
+    color: var(--rem-c2-main);
+    font-weight: 400;
+}
+
+.faqs-row .wd-accordion .wd-accordion-item .wd-accordion-content {
+    padding: 16px !important;
+    padding-block-start: 0 !important;
+    color: var(--rem-c2-dark);
+    font-size: 16px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+    .faqs-row {
+        padding-block: 30px !important;
+    }
+}

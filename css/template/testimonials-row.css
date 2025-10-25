@@ -1,0 +1,41 @@
+.testimonials-row {
+    padding-block: 88px !important;
+    background: linear-gradient(180deg, #f4f4f4, hsla(0, 0%, 100%, 0));
+}
+
+.testimonials-row .r1 {
+    margin-inline: -15px !important;
+}
+
+.testimonials-row .r1 .c1 .title-wrapper {
+    margin-block-end: 50px;
+}
+
+.testimonials-row .r1 .c1 .woodmart-title-container {
+    font-size: 32px;
+    color: var(--rem-c2-dark);
+}
+
+.testimonials-row .r1 .c1 .title-after_title {
+    font-size: 18px;
+    color: var(--rem-c2-dark);
+}
+
+@media only screen and (max-width: 768px) {
+    .testimonials-row {
+        padding: 40px 0 !important;
+        margin-inline: 0 !important;
+    }
+    .testimonials-row .r1 .c1 .title-wrapper {
+        padding-inline: 15px;
+    }
+    .testimonials-row .r1 .c1 .woodmart-title-container {
+        font-size: 28px;
+    }
+    .testimonials-row .r1 .c1 .title-after_title {
+        font-size: 14px;
+    }
+    .testimonials-row .rem-carousel .f-carousel .f-carousel__slide {
+        padding-inline-end: 0 !important;
+    }
+}

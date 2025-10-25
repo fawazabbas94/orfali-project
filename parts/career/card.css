@@ -1,0 +1,60 @@
+.single-career-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    border: 1px solid var(--rem-c2-main);
+    border-radius: var(--rem-border-radius);
+}
+
+.single-career-card .career-logo img {
+    border-start-start-radius: calc(var(--rem-border-radius) - 1px);
+    border-start-end-radius: calc(var(--rem-border-radius) - 1px);
+}
+
+.single-career-card .career-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--rem-c2-dark);
+    margin-block-end: 0;
+}
+
+.single-career-card .vacancy-information {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.single-career-card .vacancy-location {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.single-career-card .vacancy-location .location-text {
+    color: var(--rem-c2-dark);
+    font-weight: 500;
+}
+
+.single-career-card .vacancy-location img {
+    width: 20px;
+    height: 20px;
+}
+
+.f-carousel .single-career-card {
+    border: none !important;
+}
+
+.f-carousel .single-career-card .vacancy-information {
+    background-color: var(--rem-c1-light);
+    border-end-start-radius: var(--rem-border-radius);
+    border-end-end-radius: var(--rem-border-radius);
+}

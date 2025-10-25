@@ -1,0 +1,186 @@
+.single-project .listing-breadcrumb,
+.single-listing .project-breadcrumb {
+    display: none !important;
+}
+
+.breadcrumb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-block: 10px !important;
+    width: 100%;
+}
+
+.breadcrumb div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.breadcrumb .home-link {
+    border-inline-start: 1px solid #dbdbdb;
+    margin-inline-start: 10px;
+    padding-inline-start: 20px;
+}
+
+.breadcrumb .back-to-projects::before {
+    content: "\f114";
+    font-family: "woodmart-font";
+    font-weight: 400;
+    font-size: 8px;
+    color: var(--rem-c2-dark);
+}
+
+.breadcrumb .home-link::after,
+.breadcrumb .city-link::after,
+.breadcrumb .district-link::after,
+.breadcrumb .listing-status-link::after {
+    content: "\f113";
+    font-family: "woodmart-font";
+    font-weight: 400;
+    font-size: 8px;
+    color: var(--rem-c2-dark);
+}
+
+.breadcrumb a {
+    font-size: 12px;
+    border-block-end: 1px solid transparent;
+    transition-duration: .3s;
+    color: var(--rem-c2-dark) !important;
+}
+
+.breadcrumb a:hover {
+    border-color: var(--rem-c2-dark) !important;
+}
+
+.breadcrumb .for-link {
+    flex: 1;
+}
+
+.single-project .breadcrumb .district-link::after,
+.single-project .print-button {
+    display: none;
+}
+
+.breadcrumb .print-button {
+    border-block-end: none !important;
+}
+
+.breadcrumb .print-button:hover {
+    border-block-end: none !important;
+}
+
+.breadcrumb .print-button img {
+    width: 16px;
+}
+
+.share {
+    display: flex !important;
+    position: relative;
+    margin-inline-start: auto;
+}
+
+#share-toggle-button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+#share-toggle-button img {
+    width: 13px;
+    margin-inline-end: 5px;
+}
+
+#share-buttons {
+    position: absolute;
+    inset-block-start: 50px;
+    inset-inline-end: 0;
+    z-index: 2;
+    background-color: var(--rem-c1-main);
+    border-radius: var(--rem-border-radius);
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .16), 0 0 20px 0 rgba(0, 0, 0, .06);
+}
+
+#share-buttons .wd-social-icons .copy-link-button img {
+    width: 20px;
+}
+
+.breadcrumb-seperator {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-block-end: 1px solid var(--rem-c2-dark-5);
+}
+
+.single-listing .breadcrumb-seperator {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .breadcrumb {
+        padding-block: 10px;
+        gap: 5px;
+    }
+
+    .breadcrumb div {
+        gap: 5px;
+    }
+
+    .breadcrumb .back-to-projects {
+        flex: 1;
+    }
+
+    .breadcrumb .home-link,
+    .breadcrumb .city-link,
+    .breadcrumb .district-link,
+    .breadcrumb .for-link {
+        display: none;
+    }
+
+    #share-buttons::after {
+        content: "";
+        position: absolute;
+        inset-block-start: 50%;
+        inset-inline-start: 100%;
+        margin-block-start: -10px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent transparent #eaeaea;
+    }
+
+    #share-toggle-button {
+        font-size: 12px;
+    }
+
+    #share-buttons .wd-social-icons .copy-link-button {
+        width: max-content;
+    }
+
+    #share-buttons {
+        inset-block-start: 0;
+        inset-inline-end: 30px;
+    }
+
+    #share-buttons .wd-social-icons {
+        padding-inline: 6px 10px;
+        gap: 10px !important;
+    }
+
+    .breadcrumb .print-button {
+        margin-inline-start: 8px;
+    }
+
+    .breadcrumb-seperator {
+        display: none;
+    }
+}

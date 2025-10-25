@@ -1,0 +1,60 @@
+.person-meta-information {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 7px;
+}
+
+.person-meta-information .person-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 3px;
+}
+
+.person-meta-information .person-list .sub-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.person-meta-information .person-list .sub-list p {
+    font-size: 14px;
+    color: var(--rem-c2-dark);
+    font-weight: 400;
+    margin-block-end: 0;
+    line-height: 20px;
+}
+
+.person-meta-information .person-list h3 {
+    font-weight: 600 !important;
+    margin-block-end: 0;
+    color: var(--rem-c2-dark);
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.person-meta-information .person-list h4,
+.person-meta-information .person-list a,
+.person-meta-information .person-list span {
+    font-size: 14px;
+    color: var(--rem-c2-dark);
+    font-weight: 400;
+    margin-block-end: 0;
+    line-height: 20px;
+}
+
+.person-meta-information .companies a {
+    border-block-end: 1px solid transparent;
+    transition-duration: .3s;
+}
+
+.person-meta-information .companies a:hover {
+    border-color: var(--rem-c0-main);
+}

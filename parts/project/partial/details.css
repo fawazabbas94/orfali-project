@@ -1,0 +1,213 @@
+.project-inner .project-details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 88px;
+    padding-block: 88px;
+}
+
+.project-inner .project-details .tagline {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--rem-c2-dark);
+    margin-block-end: 0;
+    text-align: center;
+    max-width: 60%;
+    margin-inline: auto;
+}
+
+.project-inner .project-details .details-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.project-inner .project-details .details-section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.project-inner .project-details .details-section .info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 24px;
+    width: 50%;
+}
+
+.project-inner .project-details .details-section:nth-child(even) .info {
+    padding-inline-start: 70px;
+}
+
+.project-inner .project-details .details-section:nth-child(odd) .info {
+    padding-inline-end: 70px;
+}
+
+.project-inner .project-details .details-section .title {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--rem-c2-main);
+    margin-block-end: 0;
+}
+
+.project-inner .project-details .details-section .content {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--rem-c2-dark);
+    margin-block-end: 0;
+    text-align: start;
+}
+
+.project-inner .project-details .details-section .image {
+    width: 50%;
+}
+
+.project-inner .project-details .details-section .image img {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+    border-radius: var(--rem-border-radius);
+}
+
+.project-inner .project-details .details-section .google-map {
+    width: 50%;
+    height: inherit;
+    min-height: 300px;
+    margin-block-end: 24px;
+}
+
+.project-inner .project-details .details-section .google-map .acf-map {
+    width: 100%;
+    height: 440px;
+    border-radius: var(--rem-border-radius);
+}
+
+.project-inner .project-details .details-section .address {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.project-inner .project-details .details-section .address p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--rem-c2-dark);
+    margin-block-end: 0;
+}
+
+.project-inner .project-details .details-section .section-title,
+.project-inner .project-details .details-section .nearby-places {
+    margin-block-end: 0;
+    color: var(--rem-c2-dark);
+}
+
+.project-inner .project-details .details-section .nearby-places li {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--rem-c2-dark);
+}
+
+.project-inner .project-details .details-section .nearby-places li b {
+    font-weight: 500;
+}
+
+.project-inner .project-details .details-section.amenities-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--rem-c2-main-5);
+    padding-block: 88px;
+    display: flex;
+    flex-direction: column !important;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.project-inner .project-details .details-section.amenities-section .amenities {
+    width: 1360px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.project-inner .project-details .details-section.amenities-section .title {
+    width: 100%;
+    text-align: center;
+}
+
+.project-inner .project-details .details-section.amenities-section .amenities .amenity {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+    width: calc(100% / 7);
+}
+
+.project-inner .project-details .details-section.amenities-section .amenities .amenity img {
+    width: 40px;
+    height: 40px;
+}
+
+.project-inner .project-details .details-section.amenities-section .amenities .amenity p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--rem-c2-dark);
+    margin-block-end: 0;
+}
+
+@media (max-width: 1024px) {
+    .project-inner .project-details {
+        gap: 44px;
+        padding-block: 44px;
+    }
+
+    .project-inner .project-details .details-section {
+        flex-direction: column-reverse !important;
+    }
+
+    .project-inner .project-details .details-section .info {
+        padding: 0 !important;
+        width: 100%;
+        gap: 16px;
+    }
+
+    .project-inner .project-details .details-section .image {
+        width: 100%;
+    }
+
+    .project-inner .project-details .details-section .image img {
+        height: 320px
+    }
+
+    .project-inner .project-details .details-section {
+        gap: 24px;
+    }
+
+    .project-inner .project-details .details-section .google-map .acf-map {
+        height: 320px;
+    }
+
+    .project-inner .project-details .details-section.amenities-section .amenities {
+        width: 100%;
+    }
+
+    .project-inner .project-details .details-section.amenities-section .amenities .amenity {
+        width: calc(100% / 3);
+    }
+}

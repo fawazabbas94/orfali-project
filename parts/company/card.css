@@ -1,0 +1,36 @@
+.single-company-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 20px;
+    border: 1px solid var(--rem-c2-main);
+    border-radius: var(--rem-border-radius);
+}
+
+.single-company-card .company-logo img {
+    margin-block-end: 20px;
+}
+
+.single-company-card .company-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--rem-c2-dark);
+    margin-block-end: 10px;
+}
+
+.single-company-card .company-types {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.single-company-card .company-types .company-type {
+    font-size: 14px;
+    color: var(--rem-c2-dark);
+    font-weight: 500;
+    margin-block-end: 0;
+}

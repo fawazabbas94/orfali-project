@@ -1,0 +1,23 @@
+.images-carousel {
+    padding-block-end: 88px !important;
+}
+
+.images-carousel .c1 img {
+    height: 240px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .images-carousel {
+        padding: 20px !important;
+    }
+
+    .images-carousel .wd-images-gallery {
+        margin-block-end: 0;
+    }
+
+    .images-carousel .c1 img {
+        border-radius: var(--rem-border-radius) !important;
+    }
+}

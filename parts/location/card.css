@@ -1,0 +1,37 @@
+.single-location-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    position: relative;
+}
+
+.single-location-card .flag {
+    position: absolute;
+    inset-block-start: 8px;
+    inset-inline-start: 16px;
+    width: 32px;
+}
+
+.single-location-card .location-image img {
+    border-radius: var(--rem-border-radius);
+    margin-block-end: 20px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.single-location-card .location-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--rem-c3-dark);
+    margin-block-end: 10px;
+}
+
+.single-location-card .location-address {
+    font-weight: 500;
+    margin-block-end: 0;
+    font-size: 14px;
+    color: var(--rem-c3-dark);
+}

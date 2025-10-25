@@ -1,0 +1,105 @@
+.project-inner .where-next {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--rem-c2-main-5) !important;
+}
+
+.project-inner .where-next-inner {
+    width: 1360px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 24px;
+}
+
+.project-inner .where-next .section-title {
+    margin-block-end: 0;
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--rem-c2-dark);
+    text-align: center;
+}
+
+.project-inner .where-next .links-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 24px;
+}
+
+.project-inner .where-next .links-list .item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 24px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .16), 0 0 20px 0 rgba(0, 0, 0, .06);
+    border-radius: var(--rem-border-radius);
+    background-color: var(--rem-c1-light);
+}
+
+.project-inner .where-next .links-list .item img {
+    width: 32px;
+    margin-block-end: 10px;
+}
+
+.project-inner .where-next .links-list .item h5 {
+    font-size: 16px;
+    color: var(--rem-c2-dark);
+    font-weight: 600;
+    margin-block-end: 0;
+}
+
+.project-inner .where-next .links-list .item p {
+    font-size: 14px;
+    color: var(--rem-c2-dark);
+    font-weight: 400;
+    margin-block-end: 0;
+}
+
+.project-inner .where-next .links-list .item a {
+    font-size: 14px;
+    color: var(--rem-c2-dark);
+    font-weight: 500;
+    margin-block-end: 0;
+}
+
+.project-inner .where-next .links-list .item a span {
+    border-block-end: 1px solid var(--rem-c2-dark);
+    transition-duration: .3s;
+    margin-inline-end: 8px;
+}
+
+.project-inner .where-next .links-list .item a:hover span {
+    border-color: transparent;
+}
+
+.project-inner .where-next .links-list .item a::after {
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display: inline-block;
+    transform: rotate(310deg);
+}
+
+@media (max-width: 1024px) {
+    .project-inner .where-next {
+        padding: 20px !important;
+        margin-block-start: 0 !important;
+    }
+
+    .project-inner .where-next-inner {
+        width: 100%;
+    }
+
+    .project-inner .where-next .links-list {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 16px;
+    }
+}

@@ -1,0 +1,98 @@
+.single-project .single-project-gallery-carousel {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-block-end: 0;
+    padding-block: 88px;
+    background-color: var(--rem-c2-main-5);
+}
+
+.rem-carousel.single-project-gallery-carousel .f-carousel {
+    margin-inline: auto;
+    margin-block-end: 0;
+    width: 1360px;
+}
+
+.rem-carousel.single-project-gallery-carousel .f-carousel .f-carousel__slide {
+    width: calc(100% / 2) !important;
+    padding-inline-end: 8px !important;
+}
+
+.rem-carousel.single-project-gallery-carousel .f-carousel .f-carousel__slide img.slide-single-photo {
+    height: 500px !important;
+}
+
+.rem-carousel.single-project-gallery-carousel .is-horizontal .f-carousel__nav .f-button.is-next {
+    inset-inline-end: -25px !important;
+}
+
+.rem-carousel.single-project-gallery-carousel .is-horizontal .f-carousel__nav .f-button.is-prev {
+    inset-inline-start: -25px !important;
+}
+
+.rem-carousel.single-project-gallery-carousel .is-horizontal .f-carousel__nav .f-button.is-next,
+.rem-carousel.single-project-gallery-carousel .is-horizontal .f-carousel__nav .f-button.is-prev {
+    background-color: white;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .16), 0 0 20px 0 rgba(0, 0, 0, .06);
+}
+
+.rem-carousel.single-project-gallery-carousel .f-carousel .f-carousel__dots {
+    display: none;
+}
+
+.rem-carousel.single-project-gallery-carousel .f-carousel .video {
+    position: absolute;
+    inset-inline-end: 10px;
+    inset-block-end: 10px;
+    background-color: var(--rem-c1-light);
+    padding: 6px 12px;
+    border-radius: var(--rem-border-radius);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.rem-carousel.single-project-gallery-carousel .f-carousel .video:hover {
+    color: var(--rem-c1-light);
+    background-color: var(--rem-c2-main);
+}
+
+.rem-carousel.single-project-gallery-carousel .f-carousel .video img {
+    width: 24px;
+    height: 24px;
+}
+
+.rem-carousel.single-project-gallery-carousel .f-carousel .video:hover img {
+    filter: invert(1);
+}
+
+@media (max-width: 1024px) {
+    .single-project .gallery {
+        margin-block-end: 20px !important;
+    }
+
+    .single-project .single-project-gallery-carousel {
+        padding: 16px;
+    }
+
+    .rem-carousel.single-project-gallery-carousel .f-carousel {
+        width: 100%;
+        margin-block-end: 0 !important;
+    }
+
+    .rem-carousel.single-project-gallery-carousel .f-carousel .f-carousel__slide {
+        width: 100% !important;
+        padding-inline: 0 !important;
+    }
+
+    .rem-carousel.single-project-gallery-carousel .f-carousel .f-carousel__slide img.slide-single-photo {
+        height: 300px !important;
+    }
+
+}

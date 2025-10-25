@@ -1,0 +1,179 @@
+.single-person .main-page-wrapper {
+    padding-block-start: 80px;
+}
+
+.single-person .site-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-block-end: 80px;
+}
+
+.person .person-inner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 30px;
+}
+
+.person .person-inner .about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 50px;
+}
+
+.person .person-inner .about .person-image {
+    flex: 1 1 25%;
+}
+
+.person .person-inner .about .person-image img {
+    border-radius: var(--rem-border-radius);
+}
+
+.person .person-inner .about .person-information {
+    flex: 1 1 75%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 25px;
+}
+
+.person .person-inner .about .person-information img {
+    width: 20px;
+    height: 20px;
+}
+
+.person .person-inner .about .person-information .person-name {
+    font-size: 48px;
+    color: var(--rem-c2-dark);
+    font-weight: 600;
+    margin-block-end: 0;
+}
+
+.person .person-inner .about .person-information .person-contact-information {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 15px;
+}
+
+.person .person-inner .about .person-information .person-contact-information a {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--rem-c2-main);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--rem-c1-dark);
+    padding: 10px 20px;
+    border-radius: var(--rem-button-border-radius);
+    transition-duration: .3s;
+    min-width: 170px;
+}
+
+.person .person-inner .about .person-information .person-contact-information a:hover {
+    border-color: var(--rem-c2-main);
+}
+
+.person .person-inner .about .person-information .person-contact-information .whatsapp {
+    background-color: #128C7E;
+    color: var(--rem-c1-light) !important;
+    border-color: #128C7E;
+}
+
+.person .person-inner .about .person-information .person-contact-information .whatsapp img {
+    filter: brightness(0) invert(1);
+}
+
+.person .person-inner .about .person-information .person-contact-information .whatsapp:hover {
+    background-color: #075E54 !important;
+    border-color: #075E54 !important;
+}
+
+.person .person-inner .about .person-information .company-contact-information h3 {
+    flex: 1 1 100%;
+    margin-block-end: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--rem-c2-dark);
+}
+
+.person .person-inner .about .person-information .company-contact-information .website {
+    background-color: var(--rem-c2-main);
+    color: var(--rem-c1-light) !important;
+    border-color: var(--rem-c2-main);
+}
+
+.person .person-inner .about .person-information .company-contact-information .website img {
+    filter: brightness(0) invert(1);
+}
+
+.person .person-inner .about .person-information .company-contact-information .website:hover {
+    background-color: var(--rem-c3-main) !important;
+    border-color: var(--rem-c3-main) !important;
+}
+
+.person .person-inner .about .person-information .overview {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 5px;
+}
+
+.person .person-inner .about .person-information .overview h3 {
+    margin-block-end: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--rem-c2-dark);
+}
+
+.person .person-inner .about .person-information .overview p {
+    color: var(--rem-c2-dark);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+}
+
+@media (max-width: 1024px) {
+    .single-person .main-page-wrapper {
+        padding-block-start: 20px;
+        padding-inline: 20px !important;
+    }
+
+    .single-person .site-content {
+        padding-block-end: 20px;
+    }
+
+    .person .person-inner .about {
+        gap: 30px;
+        flex-direction: column-reverse;
+    }
+
+    .person .person-inner .about .person-information .person-name {
+        font-size: 24px;
+    }
+
+    .person .person-inner .about .person-information {
+        gap: 15px;
+    }
+
+    .person .person-inner .about .person-information .person-contact-information a {
+        flex: 1 1 40%;
+        min-width: unset;
+        padding: 8px !important;
+        font-size: 14px !important;
+    }
+}

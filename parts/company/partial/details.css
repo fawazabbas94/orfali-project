@@ -1,0 +1,269 @@
+.company-inner .company-details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 88px;
+}
+
+.company-inner .company-details .f-carousel {
+    margin-block-end: 0;
+}
+
+.company-inner .company-details .f-carousel__dots {
+    display: none;
+}
+
+.company-inner .about {
+    text-align: center;
+}
+
+.company-inner .about h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--rem-c2-dark);
+    margin-block-end: 20px;
+    text-align: center;
+}
+
+.company-inner .about p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--rem-c2-dark);
+    margin-block-end: 0;
+    text-align: center;
+    max-width: 75%;
+    margin-inline: auto;
+}
+
+.company-inner .details-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.company-inner .details-section>div {
+    flex: 1 1 50%;
+}
+
+.company-inner .details-section .image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-block-end: 0;
+    border-radius: var(--rem-border-radius);
+}
+
+.company-inner .key-highlights .content {
+    padding-inline-start: 80px;
+}
+
+.company-inner .secondary-about .content {
+    padding-inline-end: 80px;
+}
+
+.company-inner .details-section .content h2,
+.company-inner .faqs-title,
+.company-inner .rem-carousel h3 {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--rem-c2-dark);
+    margin-block-end: 20px;
+    text-align: start;
+}
+
+.company-inner .secondary-about .content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--rem-c2-dark);
+    margin-block-end: 0;
+    text-align: start;
+}
+
+.company-inner .accordion .accordion-item {
+    border-block-end: 1px solid var(--rem-c2-main-10);
+}
+
+.company-inner .accordion button {
+    position: relative;
+    display: block;
+    text-align: start;
+    width: 100%;
+    padding: 16px 8px;
+    color: var(--rem-c2-main);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.company-inner .accordion button:hover,
+.company-inner .accordion button:focus {
+    cursor: pointer;
+    color: var(--rem-c2-dark);
+}
+
+.company-inner .accordion button:hover::after,
+.company-inner .accordion button:focus::after {
+    cursor: pointer;
+    color: var(--rem-c2-dark);
+    border: 1px solid var(--rem-c2-dark);
+}
+
+.company-inner .accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    inset-block-start: 10px;
+    inset-inline-end: 0;
+    width: 22px;
+    height: 22px;
+}
+
+.company-inner .accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    inset-block-start: 14px;
+    inset-inline-start: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+}
+
+.company-inner .accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    inset-block-start: 10px;
+    inset-inline-start: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+}
+
+.company-inner .accordion button[aria-expanded='true'] {
+    color: var(--rem-c2-main);
+}
+
+.company-inner .accordion button[aria-expanded='true'] .icon::after {
+    width: 0;
+}
+
+.company-inner .accordion button[aria-expanded='true']+.accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.company-inner .accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.company-inner .accordion .accordion-content p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px 8px;
+    margin-block-start: 0;
+    color: var(--rem-c2-main);
+}
+
+.company-inner .contact-section .section-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    width: 1360px;
+    margin-inline: auto;
+}
+
+.company-inner .contact-section .section-container .title {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--rem-c2-dark);
+    margin-block-end: 0;
+    text-align: start;
+}
+
+.company-inner .contact-section .section-container .content {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--rem-c2-dark);
+    margin-block-end: 0;
+    text-align: start;
+}
+
+.company-inner .contact-section .section-container .contact-button {
+    border-radius: var(--rem-button-border-radius);
+    color: var(--rem-c1-light);
+    background-color: var(--rem-c2-main);
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.company-inner .contact-section .section-container .contact-button:hover {
+    background-color: var(--rem-c3-main);
+}
+
+@media (max-width: 1024px) {
+    .company-inner .company-details {
+        gap: 40px;
+    }
+
+    .company-inner .details-section {
+        flex-direction: column !important;
+    }
+
+    .company-inner .contact-section .section-container .title,
+    .company-inner .details-section .content h2,
+    .company-inner .faqs-title,
+    .company-inner .rem-carousel h3,
+    .company-inner .about h2 {
+        font-size: 20px;
+        text-align: start;
+    }
+
+    .company-inner .contact-section .section-container .content,
+
+    .company-inner .secondary-about .content p,
+    .company-inner .about p {
+        max-width: 100%;
+        font-size: 16px;
+        text-align: start;
+    }
+
+    .company-inner .secondary-about .content,
+    .company-inner .key-highlights .content {
+        padding: 0;
+        width: 100%;
+    }
+
+    .company-inner .details-section .image img {
+        height: 260px;
+    }
+
+    .company-inner .company-details .f-carousel__dots {
+        display: flex;
+    }
+
+    .company-inner .contact-section .section-container {
+        width: 100%;
+    }
+
+    .company-inner .contact-section .section-container {
+        padding-block-end: 30px;
+    }
+}

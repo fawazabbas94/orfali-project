@@ -1,0 +1,92 @@
+.single-company .whb-header .whb-main-header {
+    background-color: transparent !important;
+}
+
+.single-company .whb-header .whb-main-header .whb-general-header {
+    background-color: transparent !important;
+}
+
+.single-company .whb-header.whb-sticked .whb-main-header,
+.single-company .whb-header.whb-sticked .whb-main-header .whb-general-header {
+    background-color: var(--rem-c2-main) !important;
+}
+
+.single-company .header-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 760px;
+    background-size: cover;
+    background-position: center center;
+    margin-block-start: -110px !important;
+}
+
+.single-company .header-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--rem-c4-dark-50);
+}
+
+.single-company .header-section .overlay .company-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    text-align: center;
+}
+
+.single-company .header-section .overlay .company-header .company-name {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-block-end: 0;
+}
+
+.single-company .header-section .overlay .company-header .headline {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.single-company .header-section .overlay .company-header .button {
+    border-radius: var(--rem-button-border-radius);
+    color: var(--rem-c1-light);
+    background-color: transparent;
+    border: 1px solid var(--rem-c1-light);
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.single-company .header-section .overlay .company-header .button:hover {
+    background-color: var(--rem-c2-main);
+    border-color: var(--rem-c2-main);
+}
+
+@media (max-width: 1024px) {
+    .single-company .header-section {
+        height: 500px;
+    }
+
+    .single-company .header-section .overlay .company-header {
+        width: 90%;
+    }
+
+    .single-company .header-section .overlay .company-header .company-name {
+        font-size: 2rem;
+    }
+
+    .single-company .header-section .overlay .company-header .headline {
+        font-size: 1rem;
+    }
+
+    .single-company .header-section .overlay .company-header .button {
+        font-size: 14px;
+        padding-inline: 20px;
+    }
+}

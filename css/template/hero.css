@@ -1,0 +1,106 @@
+.hero {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    margin-block-start: -40px !important;
+    margin-block-end: 88px !important;
+}
+
+.hero .r1 {
+    padding-block: 30vh 20vh !important;
+    background-color: var(--rem-c4-main-35) !important;
+}
+
+.hero .r1 .c1 .woodmart-title-container {
+    color: var(--rem-c1-light);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero .r1 .c1 .title-after_title {
+    color: var(--rem-c1-light);
+    font-size: 18px;
+    width: 60%;
+    font-weight: 500;
+}
+
+.hero .r1 .c1 .title-wrapper .title-after_title {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--rem-c1-light);
+    width: 100% !important;
+}
+
+.hero .r1 .c2 {
+    padding-inline-start: 100px !important;
+}
+
+.hero .r1 .c2 .title-wrapper {
+    margin-block-end: 0;
+    border-start-start-radius: var(--rem-border-radius);
+    border-start-end-radius: var(--rem-border-radius);
+    background-color: var(--rem-c1-main);
+    padding: 6px;
+}
+
+.hero .r1 .c2 .title-wrapper .woodmart-title-container {
+    color: var(--rem-c2-light);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.hero .r1 .c2 .wpcf7 {
+    background-color: var(--rem-c1-light);
+    border-end-start-radius: var(--rem-border-radius);
+    border-end-end-radius: var(--rem-border-radius);
+    padding: 32px 40px !important;
+}
+
+.hero .r1 .c2 .wpcf7 .wpcf7-response-output {
+    justify-content: center;
+}
+
+.hero .r1 .c2 .wpcf7 .field-name {
+    flex-direction: row;
+    gap: 10px;
+}
+
+.hero .r1 .c2 .wpcf7 textarea {
+    padding: 15px !important;
+}
+
+.hero .r1 .c2 .wpcf7 .terms-section {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        margin-block-end: 0 !important;
+    }
+
+    .hero .r1 {
+        padding-block: 12vh !important;
+        padding-inline: 20px !important;
+    }
+
+    .hero .r1 .c1 .woodmart-title-container {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .hero .r1 .c1 .title-after_title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero .r1 .c1 .wd-button-wrapper,
+    .hero .r1 .c1 .wd-button-wrapper a {
+        width: 100%;
+        margin-inline: 0;
+    }
+
+    .hero .r1 .c2 {
+        padding: 0 !important;
+    }
+
+}

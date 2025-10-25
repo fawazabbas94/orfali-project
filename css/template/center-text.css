@@ -1,0 +1,42 @@
+.center-text {
+    padding-block-end: 88px !important;
+}
+
+.center-text .r1 .c1 .title-wrapper {
+    margin-block-end: 0;
+    width: 70%;
+    margin-inline: auto;
+}
+
+.center-text .r1 .c1 .woodmart-title-container {
+    font-size: 32px;
+    color: var(--rem-c2-dark);
+}
+
+.center-text .r1 .c1 .title-after_title {
+    font-size: 18px;
+    color: var(--rem-c2-dark);
+    text-align: justify;
+	text-align-last: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .center-text {
+        padding-block: 40px !important;
+        padding-inline: 20px !important;
+        margin-inline: 0 !important;
+    }
+
+    .center-text .r1 .c1 .title-wrapper {
+        width: 100%;
+    }
+
+    .center-text .r1 .c1 .woodmart-title-container {
+        font-size: 24px;
+    }
+
+    .center-text .r1 .c1 .title-after_title {
+        font-size: 14px;
+        text-align-last: center;
+    }
+}

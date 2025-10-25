@@ -1,0 +1,410 @@
+.whb-header,
+.footer-container,
+.scrollToTop {
+    display: none;
+}
+
+.listing-print-template {
+    margin-inline: 0 !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.listing-print-template p,
+.listing-print-template h1,
+.listing-print-template h2,
+.listing-print-template h3,
+.listing-print-template h4,
+.listing-print-template h5,
+.listing-print-template h6,
+.listing-print-template b,
+.listing-print-template u {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.listing-print-template .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    background-color: var(--rem-c2-main);
+}
+
+.listing-print-template .header .logo {
+    width: 200px;
+}
+
+.listing-print-template .header .headline {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-block-start: 10px;
+    color: var(--rem-c1-light);
+}
+
+.listing-print-template .featured-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.listing-info {
+    padding: 40px;
+}
+
+.listing-info .listing-title-address {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.listing-info .listing-title-address .listing-title {
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--rem-c2-main);
+}
+
+.listing-info .listing-title-address .listing-district-city {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.listing-info .listing-info-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.listing-info .listing-info-footer p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--rem-c2-main);
+}
+
+.listing-info .listing-info-footer .facts-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.listing-info .listing-info-footer .facts-boxes .box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.listing-info .listing-info-footer .facts-boxes .box img {
+    width: 32px;
+    height: 32px;
+    filter: hue-rotate(133deg) saturate(190%) brightness(260%);
+}
+
+.listing-info .listing-info-footer .facts-boxes .box p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--rem-c2-main);
+}
+
+.second-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 40px;
+}
+
+.second-page .content-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    height: 80vh;
+}
+
+.second-page .photos,
+.second-page .info {
+    width: 50%;
+}
+
+.second-page .photos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.second-page .photos img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+
+.second-page .info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.second-page .info .listing-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--rem-c2-main);
+}
+
+.second-page .info .listing-district-city {
+    margin-block-end: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--rem-c2-main);
+}
+
+.second-page .info .facts-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 40px;
+}
+
+.second-page .info .facts-boxes .box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.second-page .info .facts-boxes .box img {
+    width: 24px;
+    height: 24px;
+    filter: hue-rotate(133deg) saturate(190%) brightness(260%);
+}
+
+.second-page .info .facts-boxes .box p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--rem-c2-main);
+}
+
+.second-page .info .pdf-content {
+    color: var(--rem-c2-main);
+    padding-block-start: 40px;
+}
+
+.second-page .info .pdf-content * {
+    color: var(--rem-c2-main);
+}
+
+.second-page .info .pdf-content ul li {
+    margin-block-end: 0;
+}
+
+.image-page,
+.images-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 40px;
+    height: 100vh;
+}
+
+.image-page .content-section .photos .photo {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.images-page .content-section .photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.images-page .content-section .photos .photo {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+
+.last-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    height: 100vh;
+    padding-block-start: 80px;
+}
+
+.last-page .contact {
+    width: 90%;
+    margin-inline: auto;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+    background-color: var(--rem-c1-main);
+    padding: 80px;
+}
+
+.last-page .contact>h1 {
+    color: var(--rem-c2-main);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.last-page .contact>p {
+    color: var(--rem-c2-main);
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding-block-end: 80px;
+}
+
+.last-page .contact .agent-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 40px;
+}
+
+.last-page .contact .agent-card .agent-photo img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.last-page .contact .agent-card .agent-info h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--rem-c2-main);
+}
+
+.last-page .contact .agent-card .agent-info p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--rem-c2-main);
+}
+
+.page-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: var(--rem-c2-main);
+    height: 20vh;
+}
+
+.last-page .disclaimer *,
+.page-footer p {
+    color: var(--rem-c1-light);
+}
+
+.page-footer img {
+    width: 200px;
+}
+
+@media (max-width: 1024px) {
+    .listing-print-template {
+        width: 100% !important;
+    }
+}
+
+@media print {
+    @page {
+        size: 1350px 900px;
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .page {
+        page-break-before: always;
+    }
+
+    .main-page-wrapper {
+        margin-block: 0 !important;
+    }
+
+    .first-page {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+
+    .listing-print-template .header {
+        background-color: var(--rem-c2-main) !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        height: 12vh;
+    }
+
+    .listing-print-template .header .headline {
+        color: var(--rem-c1-light) !important;
+    }
+
+    .listing-print-template .featured-image {
+        height: 70vh !important;
+    }
+
+    .listing-info {
+        height: 24vh;
+    }
+
+    .second-page .content-section {
+        height: 80vh;
+    }
+
+    .last-page .contact {
+        background-color: var(--rem-c1-main) !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .last-page .disclaimer {
+        padding: 20px;
+        background-color: var(--rem-c2-main) !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        border-block-end: 1px solid var(--rem-c1-dark);
+    }
+
+    .page-footer {
+        background-color: var(--rem-c2-main) !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        height: 12vh;
+    }
+}

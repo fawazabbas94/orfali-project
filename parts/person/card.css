@@ -1,0 +1,21 @@
+.single-person-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.single-person-card .person-image img {
+    border-radius: var(--rem-border-radius);
+    margin-block-end: 20px;
+    height: 210px;
+    object-fit: cover;
+}
+
+.single-person-card .person-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--rem-c2-dark);
+    margin-block-end: 10px;
+}

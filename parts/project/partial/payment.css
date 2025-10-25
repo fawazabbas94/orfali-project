@@ -1,0 +1,76 @@
+.single-project .payment-plan {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--rem-c2-main-5);
+    padding-block: 88px;
+}
+
+.payment-plan-title {
+    margin-inline: auto;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--rem-c2-main);
+    margin-block-end: 40px;
+    text-align: center;
+}
+.payment_alt{
+    margin-inline: auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--rem-c2-main-100);
+    text-align: center;
+    max-width: 800px;
+    margin-block-end: 40px;
+}
+.single-project .payment-plan .payment-plan-items {
+    width: 1360px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.single-project .payment-plan .payment-plan-items .payment-plan-item {
+    background-color: var(--rem-c1-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--rem-border-radius);
+    padding-block: 20px 24px;
+    padding-inline: 20px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .16), 0 0 20px 0 rgba(0, 0, 0, .06);
+    min-width: 300px;
+}
+
+.single-project .payment-plan .payment-plan-items .payment-plan-item .payment-plan-item-value {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--rem-c2-main-100);
+    margin-block-end: 0;
+}
+
+.single-project .payment-plan .payment-plan-items .payment-plan-item .payment-plan-item-label {
+    font-size: 18ox;
+    font-weight: 500;
+    color: var(--rem-c2-main-100);
+    margin-block-end: 0;
+}
+
+@media (max-width: 1024px) {
+    .single-project .payment-plan {
+        padding: 44px 20px;
+        margin-block-end: -20px;
+    }
+
+    .single-project .payment-plan .payment-plan-items {
+        flex-direction: column !important;
+        width: 100% !important;
+        align-items: center !important;
+    }
+}

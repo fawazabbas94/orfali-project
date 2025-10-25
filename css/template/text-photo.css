@@ -1,0 +1,35 @@
+.text-photo {
+    padding-block-end: 88px !important;
+}
+
+.text-photo .c1 {
+    padding-inline-end: 0px !important;
+}
+
+.text-photo ul {
+    padding-inline-start: 50px;
+}
+
+.text-photo .c2 {
+    padding-inline-start: 30px !important;
+}
+
+.text-photo .c2 .vc_column-inner {
+    padding: 0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .text-photo .c1,
+    .text-photo .c2 {
+        padding: 0 !important;
+    }
+
+    .text-photo .c2 {
+        padding-block-end: 20px !important;
+    }
+
+    .text-photo ul {
+        padding-inline-start: 20px;
+    }
+}

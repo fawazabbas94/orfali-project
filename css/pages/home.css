@@ -1,0 +1,311 @@
+.home .hero-section {
+    margin-block-start: -40px !important;
+}
+
+.home .hero-section .r1 {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding-block: 35vh 30vh;
+}
+
+.home .hero-section .r1 .woodmart-row-gradient {
+    background-color: var(--rem-c4-main-30) !important;
+}
+
+.home .vc_column-inner {
+    padding: 0 !important;
+}
+
+.home .hero-section .r1 .c1 .wd-info-box,
+.home .hero-section .r2 .c1 .wpb_raw_code,
+.home .faqs-section .r1 .c1 .wd-accordion,
+.home .blog-section .r1 .c1 .wd-post-entry-meta,
+.home .sell-section .r1 .c1 .wd-info-box {
+    margin-block-end: 0;
+}
+
+.home .hero-section .r1 .c1 .wd-info-box .info-box-title {
+    color: var(--rem-c1-light);
+    font-size: 48px;
+}
+
+.home .hero-section .r1 .c1 .wd-info-box .info-box-inner {
+    color: var(--rem-c1-light);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.home .hero-section .r1 .c1 .wd-info-box .info-btn-wrapper .btn,
+.home .regions-section .r1 .c1 .wd-info-box .info-btn-wrapper .btn,
+.home .sell-section .r1 .c1 .wd-info-box .info-btn-wrapper .btn {
+    transition-duration: .3s;
+}
+
+.home .hero-section .r1 .c1 .wd-info-box .info-btn-wrapper .btn:hover,
+.home .regions-section .r1 .c1 .wd-info-box .info-btn-wrapper .btn:hover,
+.home .sell-section .r1 .c1 .wd-info-box .info-btn-wrapper .btn:hover {
+    background-color: var(--rem-c4-main);
+}
+
+.home .testimonials-row .r1 {
+    margin-inline: 0 !important;
+}
+
+.home .hero-section .r2 {
+    margin-block-start: -47px !important;
+    padding-block-end: 20px !important;
+    padding-inline: 5% !important;
+}
+
+.home .hero-section .r2 .c1 {
+    background-color: #fff;
+    border-radius: var(--rem-border-radius);
+    padding: 10px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .16), 0 0 20px 0 rgba(0, 0, 0, .06);
+}
+
+.home .projects-section {
+    padding-block: 5vh !important;
+}
+
+.home .projects-section .r1 .c1 {
+    padding-block-end: 60px !important;
+}
+
+.home .projects-section .r1 .c1 .wd-text-block {
+    margin-block-end: 0;
+    font-size: 28px;
+    color: var(--rem-c4-main);
+    text-align: center;
+}
+
+.home .projects-section .r1 .c2 .wpb_raw_code {
+    margin-block-end: 0;
+}
+
+.home .regions-section .r1 .vc_column-inner {
+    background-color: var(--rem-c2-main-5) !important;
+    background-position: right bottom !important;
+    background-repeat: no-repeat !important;
+    background-size: auto !important;
+    padding: 64px 48px !important;
+    border-radius: var(--rem-border-radius) !important;
+}
+
+.home .regions-section .r1 .wpcf7 .wpcf7-submit {
+    padding-inline: 20px !important;
+}
+
+.home .regions-section .r1 .wpcf7 .wpcf7-spinner {
+    inset-inline-end: -20px !important;
+    inset-block-start: 10px;
+}
+
+.home .regions-section .r1 .wpcf7 .wpcf7-spinner::before {
+    border-left-color: var(--rem-c0-main) !important;
+}
+
+.home .sell-section .r1 .c2 .wd-image,
+.home .regions-section .r1 .c1 .wd-info-box {
+    margin-block-end: 0;
+    width: 60% !important;
+}
+
+.home .faqs-section .r1 .c1 .woodmart-title-container,
+.home .blog-section .r1 .c1 .woodmart-title-container,
+.home .youtube-section .r1 .c1 .woodmart-title-container,
+.home .listings-section .r1 .c1 .woodmart-title-container,
+.home .projects-section .r1 .c2 .woodmart-title-container,
+.home .regions-section .r1 .c1 .wd-info-box .info-box-title,
+.home .regions-section .r1 .c2 .woodmart-title-container {
+    font-size: 32px;
+    color: var(--rem-c2-main);
+}
+
+.home .sell-section .r1 .c1 .wd-info-box .info-box-inner,
+.home .regions-section .r1 .c1 .wd-info-box .info-box-inner,
+.home .regions-section .r1 .c2 .title-after_title {
+    font-size: 16px;
+    color: var(--rem-c2-main);
+}
+
+.home .regions-section .r1 .c2 .title-wrapper {
+    margin-block-end: 15px;
+    width: 70%;
+}
+
+.home .regions-section .r1 .c2 .wpcf7 {
+    width: 70%;
+}
+
+.home .regions-section .r1 .c2 .wpcf7 .fields-section {
+    flex-direction: row;
+}
+
+.home .blog-section .r1 .c1 .wd-post-inner .wd-post-header,
+.home .blog-section .r1 .c1 .wd-post-inner .wd-post-content .wd-post-cat {
+    display: none;
+}
+
+.home .listings-section {
+    padding-block: 88px !important;
+}
+
+.home .sell-section .r1 {
+    background-color: var(--rem-c2-main-10) !important;
+    border-radius: var(--rem-border-radius) !important;
+    padding: 26px !important;
+    margin-inline: 15px !important;
+}
+
+.home .sell-section .r1 .c1 .wd-info-box .info-box-title {
+    font-size: 32px;
+    color: var(--rem-c2-dark);
+    gap: 20px;
+}
+
+.home .sell-section .r1 .c1 .wd-info-box .info-box-title u {
+    background-color: var(--rem-c3-main);
+    color: var(--rem-c1-light);
+    margin-inline-start: 10px;
+    text-decoration: none;
+    padding: 6px 16px;
+    border-radius: var(--rem-border-radius);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.home .sell-section .r1 .c1 .wd-info-box .info-btn-wrapper {
+    margin-block-start: 40px;
+}
+
+.home .sell-section .r1 .c2 img {
+    border-radius: var(--rem-border-radius);
+}
+
+.home .blog-section {
+    padding-block: 88px !important;
+}
+
+.home .youtube-section {
+    padding-block-end: 20px !important;
+}
+
+.home .youtube-section .wd-el-video {
+    margin-block-end: 0;
+    border-radius: var(--rem-border-radius);
+}
+
+.home .faqs-section {
+    padding-block: 88px !important;
+    background-color: var(--rem-c2-main-5) !important;
+}
+
+.home .faqs-section .r1 .c1 .wd-accordion .wd-accordion-title {
+    padding-block: 10px;
+}
+
+.home .faqs-section .r1 .c1 .wd-accordion .wd-accordion-title:hover div,
+.home .faqs-section .r1 .c1 .wd-accordion-title:is(.wd-active, :hover)>.wd-accordion-title-text {
+    color: var(--rem-c2-main) !important;
+}
+
+.home .faqs-section .r1 .c1 .wd-accordion-title:is(.wd-active)>.wd-accordion-title-text {
+    font-weight: 600 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .home .hero-section .r1 {
+        padding-block: 20vh 25vh;
+    }
+    .home .hero-section .r1 .c1 .wd-info-box {
+        padding-inline: 20px;
+    }
+    .home .hero-section .r1 .c1 .wd-info-box .info-box-title {
+        font-size: 32px;
+    }
+    .home .hero-section .r1 .c1 .wd-info-box .info-box-inner {
+        font-size: 16px;
+    }
+    .home .hero-section .r2 {
+        margin-block-start: -130px !important;
+    }
+    .home .hero-section .r2 .c1 {
+        border-radius: var(--rem-border-radius);
+    }
+    .home .projects-section {
+        padding: 20px 0 !important;
+        margin: 0 !important;
+    }
+    .home .projects-section .r1 .c1 .wd-text-block {
+        font-size: 20px;
+    }
+    .home .regions-section {
+        padding-inline: 0 !important;
+        margin: 0 !important;
+    }
+    .home .regions-section .r1 .vc_column-inner {
+        padding: 24px !important;
+        background-size: cover !important;
+    }
+    .home .regions-section .r1 .c1 .wd-info-box,
+    .home .regions-section .r1 .c2 .title-wrapper,
+    .home .regions-section .r1 .c1 .wd-info-box .info-btn-wrapper .btn {
+        width: 100% !important;
+    }
+    .home .regions-section .r1 .wpcf7 .wpcf7-spinner {
+        inset-inline-end: 30px !important;
+    }
+    .home .faqs-section .r1 .c1 .woodmart-title-container,
+    .home .blog-section .r1 .c1 .woodmart-title-container,
+    .home .youtube-section .r1 .c1 .woodmart-title-container,
+    .home .listings-section .r1 .c1 .woodmart-title-container,
+    .home .projects-section .r1 .c2 .woodmart-title-container,
+    .home .regions-section .r1 .c1 .wd-info-box .info-box-title,
+    .home .regions-section .r1 .c2 .woodmart-title-container {
+        font-size: 24px;
+    }
+    .home .sell-section .r1 .c1 .wd-info-box .info-box-inner,
+    .home .regions-section .r1 .c1 .wd-info-box .info-box-inner,
+    .home .regions-section .r1 .c2 .title-after_title,
+    .home .faqs-section .r1 .c1 .wd-accordion .wd-accordion-title-text,
+    .home .faqs-section .r1 .c1 .wd-accordion .wd-accordion-content {
+        font-size: 14px;
+    }
+    .home .listings-section {
+        padding: 20px 0 !important;
+        margin: 0 !important;
+        padding-block-end: 30px !important;
+    }
+    .home .sell-section {
+        padding: 32px 15px !important;
+    }
+    .home .sell-section .r1 {
+        margin: 0 !important;
+    }
+    .home .sell-section .r1 .c1 {
+        padding-inline-start: 0 !important;
+    }
+    .home .sell-section .r1 .c1 .wd-info-box .info-box-title {
+        margin-block-end: 10px;
+        font-size: 20px;
+    }
+    .home .sell-section .r1 .c1 .wd-info-box .info-btn-wrapper {
+        margin-block-start: 20px;
+    }
+    .home .sell-section .r1 .c1 .wd-info-box .info-btn-wrapper .btn {
+        width: 100%;
+    }
+    .home .blog-section,
+    .home .youtube-section {
+        padding: 20px 0 !important;
+    }
+    .home .faqs-section {
+        padding: 40px 10px !important;
+        margin: 0 !important;
+    }
+    .home .faqs-section .r1 .c1 .title-wrapper {
+        margin-block-end: 10px;
+    }
+}

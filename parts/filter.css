@@ -1,0 +1,467 @@
+.filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 10px;
+    padding-block: 10px;
+}
+
+.filters .filter-sub-heading {
+    font-size: 14px;
+    margin-block-end: 0;
+    font-weight: 600;
+    color: var(--rem-c2-main);
+}
+
+.filters .facetwp-facet {
+    margin-block-end: 0;
+    height: 100% !important;
+}
+
+.filters .facetwp-facet .fs-wrap {
+    width: 100%;
+    line-height: unset;
+    height: 100% !important;
+}
+
+.filters .facetwp-type-radio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.filters .facetwp-type-radio .facetwp-radio {
+    background: #f4f4f5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+    border-radius: calc(var(--rem-border-radius) - 1px);
+    border: 1px solid transparent;
+}
+
+.filters .facetwp-type-radio .facetwp-radio.checked {
+    background: var(--rem-c1-light);
+    color: var(--rem-c2-main);
+    border-color: var(--rem-c2-light-20);
+}
+
+.filters.listings-filters .facetwp-type-radio .facetwp-radio.checked,
+.filters.projects-filters .facetwp-type-radio .facetwp-radio.checked {
+    background: var(--rem-c1-main) !important;
+}
+
+.filters .facetwp-type-radio .facetwp-radio:first-child {
+    display: none !important;
+}
+
+.filters .facetwp-type-radio .facetwp-radio .facetwp-display-value {
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--rem-c2-main);
+}
+
+.filters .filter-sub-heading {
+    display: none !important;
+}
+
+#advanced-filter .filters .filter-sub-heading {
+    flex: 1 1 100%;
+    display: block !important;
+}
+
+.filters .filter-for {
+    min-height: 44px;
+    background-color: #f4f4f5;
+    border-radius: var(--rem-border-radius);
+}
+
+/* 
+.home .filters .filter-for .facetwp-radio.disabled[data-value="rent"] {
+    display: none;
+} */
+
+.post-type-archive-listing .filters .filter-for {
+    background-color: var(--rem-c1-light);
+    border: 1px solid var(--rem-c1-dark-50);
+}
+
+.post-type-archive-listing .filters .filter-for .facetwp-type-radio .facetwp-radio {
+    background: var(--rem-c1-light);
+
+}
+
+.filters .facetwp-counter,
+/* .filters .filter-country, */
+.filters .filter-city,
+.filters .filter-country,
+.filters .filter-project_type,
+.filters .filter-listing_status,
+.filters .filter-listing_view,
+.filters .filter-amenities,
+.filters .filter-type,
+.fs-wrap.single .fs-option:first-child,
+body.uae .filters .filter-price .fs-option:first-child .fs-option-label::before,
+body.turkiye .filters .filter-price .fs-option:first-child .fs-option-label::before,
+.home.uae .filters .filter-country,
+.home.turkiye .filters .filter-country,
+.home.uae .filters .filter-city,
+.home.turkiye .filters .filter-city,
+.home:not(.uae):not(.turkiye) .filters .filter-price,
+.home.turkiye .filters .filter-city {
+    display: none !important;
+}
+
+.filters .facetwp-facet .fs-wrap .fs-label-wrap,
+.filters .facetwp-facet .facetwp-autocomplete {
+    border-radius: var(--rem-border-radius);
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-color: var(--rem-c1-dark-50);
+    background-color: #fff;
+    border-width: 1px;
+}
+
+.filters .facetwp-facet .fs-wrap .fs-label-wrap .fs-arrow {
+    inset-inline-end: 10px !important;
+    inset-inline-start: unset !important;
+    inset-block-start: -5px !important;
+    border: none !important;
+    position: absolute;
+    margin: auto;
+    transition: ease-in 0.15s;
+    width: 14px;
+    height: 14px;
+}
+
+.filters .facetwp-facet .fs-wrap .fs-label-wrap .fs-arrow::after {
+    content: "\f129";
+    font-family: "woodmart-font";
+    font-weight: 400;
+}
+
+.filters .facetwp-facet .fs-wrap.fs-open .fs-label-wrap .fs-arrow {
+    inset-block-start: 5px !important;
+}
+
+.filters .fs-options .fs-option {
+    border-radius: calc(var(--rem-border-radius) - 1px);
+    margin-block-end: 2px;
+    padding-inline-start: 8px !important;
+}
+
+.filters .fs-options .fs-option:last-child {
+    margin-block-end: 0;
+}
+
+.filters .fs-options .fs-option:hover {
+    background-color: var(--rem-c2-main);
+    color: var(--rem-c1-light) !important;
+}
+
+.filters .fs-options .fs-option.selected {
+    background-color: var(--rem-c2-main) !important;
+    color: var(--rem-c1-light) !important;
+}
+
+.filters .facetwp-facet .fs-wrap .fs-label-wrap .fs-label {
+    padding-block: 6px;
+    padding-inline-start: 10px;
+    padding-inline-end: 50px;
+    width: 100%;
+}
+
+.filters .facetwp-type-fselect .fs-option .fs-option-label {
+    white-space: normal !important;
+    word-break: normal;
+    line-height: 1.3em;
+}
+
+.filters .facetwp-facet .fs-wrap .fs-dropdown {
+    border: 1px solid #ddd;
+    margin-block-start: 1px;
+    border-radius: var(--rem-border-radius);
+    width: min-content;
+    min-width: 100%;
+}
+
+.filters .facetwp-facet .fs-wrap .fs-dropdown .fs-search {
+    border-start-start-radius: var(--rem-border-radius);
+    border-start-end-radius: var(--rem-border-radius);
+}
+
+.filters .filter-search {
+    flex: 1 1;
+}
+
+.filters .filter-search .facetwp-facet .fs-wrap .fs-dropdown {
+    inset-block-start: -1px;
+}
+
+.filters .fs-options .fs-option .fs-checkbox {
+    display: none;
+}
+
+.filters .filter-button {
+    flex: none;
+}
+
+.filters .filter-button button {
+    border-radius: var(--rem-button-border-radius);
+    background-color: var(--rem-c2-main);
+    color: var(--rem-c1-light);
+    transition-duration: .3s;
+    height: 100%;
+    width: 45px !important;
+    gap: 0 !important;
+    margin: 0;
+    padding-inline: 0 !important;
+}
+
+.filters .filter-button button:hover {
+    background-color: var(--rem-c3-main);
+    color: var(--rem-c1-light)
+}
+
+.filters .filter-search .fs-label {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.filters .filter-search .fs-label::before,
+.filters .filter-button button::before {
+    content: "\f130";
+    font-family: "woodmart-font";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Advanced filter start */
+#advanced-filter .filters {
+    flex-wrap: wrap !important;
+    padding: 20px !important;
+}
+
+#advanced-filter .filters .filter-city,
+#advanced-filter .filters .filter-district {
+    flex: 1 1 20%;
+}
+
+#advanced-filter .filters .filter-listing_status,
+#advanced-filter .filters .filter-project_type,
+#advanced-filter .filters .filter-listing_type {
+    flex: 1 1 30%;
+}
+
+#advanced-filter .filters .filter-beds,
+#advanced-filter .filters .filter-baths,
+#advanced-filter .filters .filter-price,
+#advanced-filter .filters .filter-price {
+    flex: 1 1 40%;
+}
+
+#advanced-filter .filters .filter-amenities,
+#advanced-filter .filters .filter-button {
+    flex: 1 1 100%;
+}
+
+#advanced-filter .filters .filter-button .fwp-submit {
+    width: 100% !important;
+}
+
+#advanced-filter .filters .filter-listing_status,
+#advanced-filter .filters .filter-listing_type,
+#advanced-filter .filters .filter-beds,
+#advanced-filter .filters .filter-baths,
+#advanced-filter .filters .filter-amenities {
+    display: block !important;
+}
+
+/* Advanced filter end */
+
+
+/* Home page filter start */
+
+.home .filters {
+    flex-direction: row !important;
+    padding: 10px !important;
+    gap: 0;
+}
+
+/* Home page filter end */
+
+.filters .filter-price .fs-option-label {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+body.uae .filters .filter-price .fs-option-label::before {
+    content: "AED";
+}
+
+body.turkiye .filters .filter-price .fs-option-label::before {
+    content: "USD";
+}
+
+@media only screen and (min-width: 800px) {
+    .home .filters .facetwp-facet .fs-wrap .fs-dropdown {
+        width: max-content;
+    }
+
+    .home .filters .filter-for,
+    .home .filters .filter-country,
+    .home .filters .filter-beds,
+    .home .filters .filter-district,
+    .home .filters .filter-project_type,
+    .home .filters .filter-price,
+    .home .filters .filter-search {
+        margin-inline-end: 10px;
+        display: block !important;
+    }
+
+    .home .filters .filter-for,
+    .home .filters .filter-country,
+    .home .filters .filter-beds,
+    .home .filters .filter-district,
+    .home .filters .filter-project_type,
+    .home .filters .filter-price {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home .filters {
+        flex-wrap: wrap;
+    }
+
+    .home .filters>div {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .filters .filter-search {
+        width: 100%;
+        flex: 1 1 100% !important;
+    }
+
+    .filters .filter-search .fs-label {
+        text-wrap: auto !important;
+    }
+
+    .home .filters .filter-for,
+    .home .filters .filter-country,
+    .home .filters .filter-city,
+    .home .filters .filter-district,
+    .home .filters .filter-project_type,
+    .home .filters .filter-search {
+        margin-inline-end: 0;
+        margin-block-end: 10px;
+        display: block !important;
+    }
+
+    .home .filters .filter-country,
+    .home .filters .filter-beds,
+    .home .filters .filter-district,
+    .home .filters .filter-project_type {
+        flex: 1 1 48%;
+        max-width: 100%;
+    }
+
+    .home .filters .filter-country .facetwp-facet {
+        margin-inline-end: 5px;
+    }
+
+    .home .filters .filter-project_type .facetwp-facet {
+        margin-inline-start: 5px;
+    }
+
+    .home .filter-project_type .fs-label-wrap,
+    .home .filter-search .fs-label-wrap {
+        border-radius: var(--rem-border-radius) !important;
+        border-inline-width: 1px !important;
+    }
+
+    .home .filters .filter-search .fs-label::before {
+        border: none;
+        padding-inline-start: 0;
+    }
+
+    .filters .filter-search .fs-label {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .home .filters .filter-button .fwp-submit {
+        width: 100% !important;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .mfp-content #filter .filters {
+        background-color: var(--rem-c1-light);
+        padding: 15px;
+        border-end-start-radius: var(--rem-border-radius);
+        border-end-end-radius: var(--rem-border-radius);
+        border: 1px solid var(--rem-c1-main);
+        border-block-start-color: var(--rem-c1-light);
+        flex-direction: column;
+    }
+
+    .mfp-content #filter .filters {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .mfp-content #filter .filters>div {
+        flex: 1 1 40%;
+    }
+
+    .mfp-content #filter .filters .filter-amenities,
+    .mfp-content #filter .filters .filter-sub-heading {
+        flex: 1 1 100%;
+    }
+
+    .mfp-content #filter .filters .filter-listing_status,
+    .mfp-content #filter .filters .filter-listing_type,
+    .mfp-content #filter .filters .filter-amenities,
+    .mfp-content #filter .filters .filter-sub-heading {
+        display: block !important;
+    }
+
+    .mfp-content #filter .filters .filter-button .fwp-submit {
+        width: 100% !important;
+    }
+
+    .mfp-content #filter .filters .filter-button .fwp-submit::before {
+        content: 'Filter';
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .mfp-content #filter .filters .facetwp-facet .fs-wrap .fs-label-wrap .fs-label {
+        padding-inline-start: 10px !important;
+        padding-block: 5px !important;
+    }
+}

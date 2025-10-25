@@ -1,0 +1,67 @@
+.category-contact {
+    padding-block-end: 88px !important;
+}
+
+.category-contact .r1 .vc_column-inner {
+    background-color: var(--rem-c2-dark-5) !important;
+    background-position: right bottom !important;
+    background-repeat: no-repeat !important;
+    background-size: auto !important;
+    padding: 64px 48px !important;
+    border-radius: var(--rem-border-radius) !important;
+}
+
+.category-contact .r1 .vc_column-inner {
+    background-image: url(/wp-content/uploads/2024/06/Fill-2-c0f8fd2ae90e2cc1a3f4062fb27fc31d.svg) !important;
+}
+
+.category-contact .r1 .wd-info-box {
+    margin-block-end: 0;
+    width: 60% !important;
+}
+
+.category-contact .r1 .wd-info-box .info-box-title {
+    font-size: 32px;
+    color: var(--rem-c2-dark);
+}
+
+.category-contact .r1 .wd-info-box .info-box-inner {
+    font-size: 16px;
+    color: var(--rem-c2-dark);
+}
+
+.category-contact .r1 .c2 .wpcf7 {
+    margin-block-start: 15px;
+    width: 70%;
+}
+
+.category-contact .r1 .c2 .wpcf7 .fields-section {
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .category-contact {
+        padding-inline: 30px !important;
+        padding-block-end: 20px !important;
+        margin: 0 !important;
+    }
+
+    .category-contact .r1 .vc_column-inner {
+        padding: 24px !important;
+        background-size: cover !important;
+    }
+
+    .category-contact .r1 .wd-info-box,
+    .category-contact .r1 .wd-info-box .info-btn-wrapper .btn {
+        width: 100% !important;
+    }
+
+    .category-contact .r1 .wd-info-box .info-box-title {
+        font-size: 24px;
+    }
+
+    .category-contact .r1 .wd-info-box .info-box-inner {
+        font-size: 14px;
+    }
+}

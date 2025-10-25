@@ -1,0 +1,85 @@
+.where-next {
+    padding-block: 88px !important;
+    background-color: rgb(28 117 188 / 5%) !important;
+}
+
+.where-next .r1 .c1 .woodmart-title-container {
+    font-size: 32px;
+    color: var(--rem-c2-dark);
+}
+
+.where-next .r1 .c1 .title-after_title {
+    font-size: 18px;
+    color: var(--rem-c2-dark);
+}
+
+.where-next .r2 {
+    margin-inline: -15px !important;
+}
+
+.where-next .r2 .vc_column-inner {
+    padding-inline: 0 !important;
+}
+
+.where-next .r2 .vc_column-inner .wpb_wrapper,
+.where-next .r2 .vc_column-inner .wpb_wrapper .info-box-wrapper,
+.where-next .r2 .vc_column-inner .wpb_wrapper .info-box-wrapper .wd-info-box {
+    height: 100%;
+}
+
+.where-next .r2 .wd-info-box {
+    margin-block-end: 0;
+    background-color: #fff;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .16), 0 0 20px 0 rgba(0, 0, 0, .06);
+    padding: 24px;
+    border-radius: var(--rem-border-radius);
+}
+
+.where-next .r2 .wd-info-box .info-box-title {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.where-next .r2 .wd-info-box .wd-button-wrapper .btn {
+    border: none !important;
+    text-decoration: underline;
+    font-size: 14px;
+    text-transform: unset;
+}
+
+.where-next .r2 .wd-info-box .wd-button-wrapper .wd-btn-icon {
+    rotate: 310deg;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .where-next {
+        padding: 40px 20px !important;
+        margin-inline: 0 !important;
+    }
+
+    .where-next .r1 .c1 .woodmart-title-container {
+        font-size: 28px;
+    }
+
+    .where-next .r1 .c1 .title-after_title {
+        font-size: 14px;
+    }
+
+    .where-next .r2 {
+        margin: 0 !important;
+        gap: 20px !important;
+    }
+
+    .where-next .r2 .wpb_column {
+        padding: 0 !important;
+    }
+
+    .where-next .r2 .wd-carousel-container {
+        margin-block-end: 0;
+    }
+
+    .where-next .r2 .wd-info-box {
+        margin-block-end: 15px;
+    }
+}

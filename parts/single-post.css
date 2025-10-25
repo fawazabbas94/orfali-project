@@ -1,0 +1,87 @@
+.single-post .main-page-wrapper {
+    width: 55%;
+    margin-inline: auto;
+    padding-block-start: 88px !important;
+}
+
+.single-post .wd-meta-author,
+.single-post .wd-single-post-header .wd-post-cat {
+    display: none !important;
+}
+
+.single-post .wd-single-post-header .wd-post-meta * {
+    color: var(--rem-c2-main) !important;
+}
+
+.single-post .wd-single-post-header .wd-meta-reply,
+.single-post .wd-single-post-header .avatar {
+    display: none !important;
+}
+
+.single-post .wd-single-post-header .wd-single-post-img {
+    border-radius: var(--rem-border-radius) !important;
+}
+
+.single-post .post-title {
+    font-weight: 600;
+    margin-block-end: 40px;
+    font-size: 44px;
+}
+
+.single-post .post-single-page .entry-content {
+    margin-block-end: 40px !important;
+    font-size: 16px;
+    color: #000;
+}
+
+.single-post .wd-single-post-header img {
+    border-radius: var(--rem-border-radius) !important;
+}
+
+.single-post .wd-single-footer {
+    padding-block: 30px;
+    border-block: 1px solid var(--rem-c2-main-10);
+    margin-block-end: 40px;
+}
+
+.single-post .single-post-social::before {
+    content: "Share";
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--rem-c3-dark);
+}
+
+.single-post .single-post-social .wd-social-icons {
+    margin-block-start: 15px;
+}
+
+.single-post .related-posts-slider .slider-title {
+    font-size: 18px;
+    color: var(--rem-c3-dark);
+}
+
+.single-post .article-inner,
+.single-post .wd-social-icons {
+    text-align: start;
+}
+
+.single-post .entry-meta.wd-entry-meta,
+.single-post .entry-header .post-date,
+.single-post .wd-single-footer .single-meta-tags,
+.single-post .page-title,
+.single-post .meta-post-categories {
+    display: none !important;
+}
+
+.single-post .copy-link-button {
+    width: 40px;
+    height: 40px;
+    background-color: var(--rem-c2-main) !important;
+    border-radius: var(--rem-button-border-radius);
+    margin-inline-start: 4px;
+}
+
+.single-post .copy-link-button img {
+    width: 20px;
+    filter: brightness(0) invert(1);
+}

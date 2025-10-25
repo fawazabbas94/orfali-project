@@ -1,0 +1,44 @@
+.single-project-card {
+    border: 1px solid var(--rem-c1-dark-40);
+    border-radius: var(--rem-border-radius);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: #fff;
+    position: relative;
+}
+
+.single-project-card .project-image img {
+    border-start-start-radius: calc(var(--rem-border-radius) - 1px);
+    border-start-end-radius: calc(var(--rem-border-radius) - 1px);
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.single-project-card .project-meta {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 5px;
+    padding: 20px;
+    flex: 1;
+}
+
+.single-project-card .project-meta .project-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    color: var(--rem-c2-dark);
+}
+
+.single-project-card .project-meta .construction-companies {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--rem-c2-dark);
+    margin-block-end: 0;
+}

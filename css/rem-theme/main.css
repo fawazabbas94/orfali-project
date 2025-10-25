@@ -1,0 +1,21 @@
+#adminmenu,
+#adminmenu .wp-submenu,
+#adminmenuback,
+#adminmenuwrap {
+    background-color: rgb(28, 117, 188);
+}
+
+#adminmenu li.menu-top:hover,
+#adminmenu li.opensub>a.menu-top,
+#adminmenu li>a.menu-top:focus {
+    background-color: rgb(24, 102, 163);
+}
+
+#adminmenu .wp-submenu {
+    background-color: rgb(24, 102, 163);
+}
+
+#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after,
+#adminmenu li.wp-has-submenu.wp-not-current-submenu:focus-within:after {
+    border-right-color: rgb(28, 117, 188);
+}

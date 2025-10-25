@@ -1,0 +1,41 @@
+.listing-inner .listing-intro {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.listing-inner .listing-intro .listing-price h1 {
+    margin-block-end: 0;
+    color: var(--rem-c2-main);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.listing-inner .listing-intro .head-info h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--rem-c2-main);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.listing-inner .listing-intro .head-info h4 .info-separator:last-child {
+    display: none;
+}
+
+.listing-inner .listing-intro .listing-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--rem-c4-main);
+    margin-block-end: 0;
+}
+
+@media (max-width: 1024px) {}

@@ -1,0 +1,138 @@
+.single-project .contact-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--rem-c2-main);
+    padding-block: 88px;
+}
+
+.single-project .contact-section .contact-section-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    width: 1360px;
+    margin-inline: auto;
+}
+
+.single-project .contact-section .contact-section-container .info-column,
+.single-project .contact-section .contact-section-container .form-column {
+    width: 50%;
+}
+
+.single-project .contact-section .contact-section-container .info-column .title {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--rem-c1-light);
+    margin-block-end: 40px;
+}
+
+.single-project .contact-section .contact-section-container .info-column .content {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--rem-c1-light);
+    margin-block-end: 40px;
+}
+
+.single-project .contact-section .contact-section-container .info-column .contact-option {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.single-project .contact-section .contact-section-container .info-column .contact-option img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.single-project .contact-section .contact-section-container .info-column .contact-option.whatsapp {
+    border-block-end: 1px solid var(--rem-c1-light-10);
+    padding-block-end: 20px;
+    margin-block-end: 20px;
+}
+
+.single-project .contact-section .contact-section-container .info-column .contact-option .link {
+    color: var(--rem-c1-light);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.single-project .contact-section .contact-section-container .info-column .contact-option.whatsapp .link {
+    border-block-end: 1px solid transparent;
+}
+
+.single-project .contact-section .contact-section-container .info-column .contact-option.whatsapp .link:hover {
+    border-color: var(--rem-c1-light);
+}
+
+.single-project .contact-section .contact-section-container .info-column .contact-option.email .link {
+    border-block-end: 1px solid var(--rem-c1-light);
+}
+
+.single-project .contact-section .contact-section-container .info-column .contact-option.email .link:hover {
+    border-color: transparent;
+}
+
+.single-project .contact-section .contact-section-container .form-column .contact-form-container {
+    width: 100%;
+    background-color: var(--rem-c1-light);
+    padding: 40px;
+    border-radius: var(--rem-border-radius);
+}
+
+.single-project .contact-section .contact-section-container .form-column .contact-form-container .wpcf7 {
+    width: 100%;
+}
+
+.single-project .contact-section .contact-section-container .form-column .contact-form-container .wpcf7 .fields-section,
+.single-project .contact-section .contact-section-container .form-column .contact-form-container .wpcf7 .fields-section .questions-row {
+    gap: 20px !important;
+}
+
+.single-project .contact-section .contact-section-container .form-column .contact-form-container .wpcf7 .fields-section .name-row {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px !important;
+}
+
+.single-project .contact-section .contact-section-container .form-column .contact-form-container .wpcf7 .fields-section .name-row .wpcf7-not-valid-tip,
+.single-project .contact-section .contact-section-container .form-column .contact-form-container .wpcf7 .fields-section .questions-row .wpcf7-not-valid-tip {
+    inset-block-start: -2px !important;
+}
+
+.single-project .contact-section .contact-section-container .form-column .contact-form-container .wpcf7 .terms-section {
+    text-align: center !important;
+}
+
+.single-project .contact-section .contact-section-container .form-column .contact-form-container .wpcf7 .wpcf7-response-output {
+    justify-content: center !important;
+}
+
+@media (max-width: 1024px) {
+    .single-project .contact-section {
+        padding: 44px 20px !important;
+    }
+
+    .single-project .contact-section .contact-section-container {
+        flex-direction: column;
+        width: 100%;
+        gap: 40px;
+    }
+
+    .single-project .contact-section .contact-section-container .info-column,
+    .single-project .contact-section .contact-section-container .form-column {
+        width: 100%;
+    }
+
+    .single-project .contact-section .contact-section-container .form-column .contact-form-container {
+        padding: 20px;
+    }
+}

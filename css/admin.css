@@ -1,0 +1,75 @@
+.acf-field-repeater[data-name="models"]:before,
+.acf-field-repeater[data-name="models"] .acf-label,
+.acf-field-taxonomy[data-name="amenities"]:before,
+.acf-field-taxonomy[data-name="amenities"] .acf-label {
+    display: none !important
+}
+
+.acf-field-repeater[data-name="models"] .acf-input,
+.acf-field-taxonomy[data-name="amenities"] .acf-input {
+    width: 100% !important
+}
+
+.amenities_list .acf-input .acf-checkbox-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.amenities_list .acf-input .acf-checkbox-list li {
+    width: 20%
+}
+
+.acf-field-taxonomy[data-name="amenities"] .acf-taxonomy-field .categorychecklist-holder {
+    max-height: -webkit-fill-available;
+}
+
+.acf-field-taxonomy[data-name="amenities"] .acf-taxonomy-field .categorychecklist-holder .acf-checkbox-list>li>label>input {
+    display: none;
+}
+
+.acf-field-taxonomy[data-name="amenities"] .acf-taxonomy-field .categorychecklist-holder .acf-checkbox-list>li>label>span {
+    font-weight: 600;
+}
+
+.acf-field-taxonomy[data-name="amenities"] .acf-taxonomy-field .categorychecklist-holder .acf-checkbox-list .children {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.acf-field-taxonomy[data-name="amenities"] .acf-taxonomy-field .categorychecklist-holder .acf-checkbox-list .children::before {
+    display: none;
+}
+
+.manage-column {
+    width: auto !important;
+}
+
+.widefat .check-column {
+    width: 2.2em !important;
+}
+
+.wp-list-table.table-view-list .col,
+.wp-list-table.table-view-list td {
+    text-align: start !important;
+}
+
+.column-featured_image,
+.column-flag,
+.column-icon {
+    width: 60px !important;
+}
+
+.column-listing_id {
+    width: 100px !important;
+}
+
+.column-counts {
+    width: 140px !important;
+}
+
+#the-list tr.level-0>td {
+    text-align: start;
+}

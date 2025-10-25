@@ -1,0 +1,47 @@
+.single-listing .single-listing-gallery {
+    margin-inline: 0 !important;
+    margin-block-end: 30px;
+}
+
+.single-listing .single-listing-gallery .buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    display: none !important;
+    gap: 10px;
+}
+
+.single-listing .single-listing-gallery .buttons a {
+    width: 100%;
+    padding: 6px 10px;
+    color: var(--rem-c2-light);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: var(--rem-border-radius);
+    transition-duration: .3s;
+}
+
+.single-listing .single-listing-gallery .buttons .video {
+    background-color: var(--rem-c3-main);
+    color: var(--rem-c1-light) !important;
+}
+
+.single-listing .single-listing-gallery .buttons .video:hover {
+    background-color: var(--rem-c3-main);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 1024px) {
+    .single-listing .single-listing-gallery {
+        margin-block-end: 20px !important;
+    }
+
+    .single-listing .single-listing-gallery .buttons {
+        display: flex !important;
+    }
+}
